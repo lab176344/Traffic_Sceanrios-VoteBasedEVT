@@ -8,6 +8,7 @@ The official code for the repo: Open-set Recognition for the Detection of Unknow
 - scipy (1.5.2)
 - numpy (0.19.0)
 - Matlab 2020a
+- Tensorflow (2.1)
 
 ## Table of Contents
 
