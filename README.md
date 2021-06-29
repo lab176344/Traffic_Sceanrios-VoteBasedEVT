@@ -1,6 +1,6 @@
 ## Vote-Based-EVT
 
-The official code for the repo: Open-set Recognition for the Detection of Unknown Traffic Scenarios Based on the Combination of Convolutional Neural Networks and Random Forests
+The official code for the repo: Open-set Recognition for the Detection of Unknown Traffic Scenarios Based on the Combination of Convolutional Neural Networks and Random Forests from Intelligent Vehicles 2021
 
 ## Dependencies
 - Python (>=3.6)
