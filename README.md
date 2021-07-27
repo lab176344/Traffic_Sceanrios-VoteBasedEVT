@@ -34,6 +34,9 @@ The traffic scenarios are generated from the HighD Dataset [1]. 7 common highway
 	- Leader - Cutout to right: The leader vehicle  makes a lane change  from  the ego lane from the right lane of ego.
 	
 ![plot](./data/description.png)
+## OpenTraffic Dataset
+
+The \*.mat file for the outlier addition experiment dataset will soon be uploaded!
 
 ## Vote-Based EVT<a name="EVT"></a>
 
