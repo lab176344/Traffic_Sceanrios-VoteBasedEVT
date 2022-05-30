@@ -780,21 +780,21 @@ scenario_leftcutin = generateNewCordinate(scenario_leftcutin);
 scenario_rightcutin = generateNewCordinate(scenario_rightcutin);
 
 %% Generate OGs
-% ogLeftCutOut = generateOccupancy(scenario_leftcutout);
-% ogLaneLeft = generateOccupancy(scenario_lnchangeleft);
-% ogLaneRight = generateOccupancy(scenario_lnchangeright);
-% ogFoll = generateOccupancy(scenario_following(1:1000));
-% ogFollAcc = generateOccupancy(scenario_followingacc);
-% ogFollDec = generateOccupancy(scenario_followingdec);
-% ogLeftCut = generateOccupancy(scenario_leftcutin);
-% ogRightCut = generateOccupancy(scenario_rightcutin);
-% ogRightCutOut = generateOccupancy(scenario_rightcutout);
-% save('HighDScenario.mat','ogLeftCutOut','ogLaneLeft',...
-%     'ogLaneRight','ogFoll','ogFollAcc','ogFollDec',...
-%     'ogLeftCut','ogRightCut','ogRightCutOut');
+ogLeftCutOut = generateOccupancy(scenario_leftcutout);
+ogLaneLeft = generateOccupancy(scenario_lnchangeleft);
+ogLaneRight = generateOccupancy(scenario_lnchangeright);
+ogFoll = generateOccupancy(scenario_following(1:1000));
+ogFollAcc = generateOccupancy(scenario_followingacc);
+ogFollDec = generateOccupancy(scenario_followingdec);
+ogLeftCut = generateOccupancy(scenario_leftcutin);
+ogRightCut = generateOccupancy(scenario_rightcutin);
+ogRightCutOut = generateOccupancy(scenario_rightcutout);
+save('HighDScenario.mat','ogLeftCutOut','ogLaneLeft',...
+    'ogLaneRight','ogFoll','ogFollAcc','ogFollDec',...
+    'ogLeftCut','ogRightCut','ogRightCutOut');
 
 %% Visualization of the scenario
-visualize = true;
+visualize = false;
 plotCarPng = false;
 %i_old = 1; % just an init value
 
